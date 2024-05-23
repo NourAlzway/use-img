@@ -2,8 +2,13 @@
   "name": "use-img",
   "version": "0.0.1",
   "description": "A react custom hook for image loading.",
-  "main": "index.js",
-  "scripts": {},
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
   "keywords": [
     "react",
     "image",
@@ -17,5 +22,10 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
   }
 }
