@@ -1,0 +1,21 @@
+{
+  "name": "use-img",
+  "version": "0.0.1",
+  "description": "A react custom hook for image loading.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "react",
+    "image",
+    "image-loading",
+    "next",
+    "custom-hooks",
+    "react-hooks"
+  ],
+  "author": "Nouraldeen Alzway",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}
