@@ -53,5 +53,21 @@ export default ImageWrapper;
 useImg(src: string): { status: 'loading' | 'error' | 'loaded' | "ready", image: HTMLImageElement | null, error: Error | null }
 ```
 
+## Explanation
+
+by using **status.ready** you can know when the image is loaded and decoded and ready to be rendered safely without any flickering.
+
+example:
+
+```tsx
+status.ready && <img src={image.src} alt="image" />
+```
+
+other status values are:
+- **status.loading**: when the image is still loading.
+- **status.error**: when the image failed to load.
+- **status.loaded**: when the image is loaded but not decoded yet.
+
+
 ## License
 This project is licensed under the MIT License.
