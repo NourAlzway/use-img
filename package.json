@@ -18,6 +18,10 @@
     "react-hooks"
   ],
   "author": "Nouraldeen Alzway",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NourAlzway/use-img"
+  },
   "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.0",
