@@ -1,4 +1,4 @@
-# useImg react hook
+# useImg React Hook
 [![npm version](https://img.shields.io/npm/v/@nouraldeen/use-img.svg)](https://www.npmjs.com/package/@nouraldeen/use-img)
 [![npm downloads](https://img.shields.io/npm/dm/@nouraldeen/use-img.svg)](https://www.npmjs.com/package/@nouraldeen/use-img)
 [![npm bundle size](https://img.shields.io/bundlephobia/min/@nouraldeen/use-img)](https://www.npmjs.com/package/@nouraldeen/use-img)
